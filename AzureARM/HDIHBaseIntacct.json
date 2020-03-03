@@ -25,7 +25,7 @@
         },
         "location": {
             "type": "string",
-            "defaultValue": "westus",
+            "defaultValue": "East US",
             "metadata": {
                 "description": "The location where all azure resources will be deployed."
             }
@@ -145,7 +145,7 @@
                         {
                             "autoscale": null,
                             "name": "workernode",
-                            "targetInstanceCount": 4,
+                            "targetInstanceCount": 1,
                             "hardwareProfile": {
                                 "vmSize": "Standard_D4_V2"
                             },
